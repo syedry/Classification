@@ -5,3 +5,6 @@
  as a low value can result in overfitting and capturing noise in the data, while a high value can lead to an overly generalized model. The similarity between 
  cases is calculated using measures such as Euclidean distance. To determine the best value for K, a part of the data is reserved for testing the accuracy of 
  the model. Nearest neighbors analysis can also be used to compute values for a continuous target.
+
+|| Decision Trees ||
+Built by splitting the training set into distinct nodes, where each node contains data from one category. The goal is to use the decision tree to predict the class of an unknown case, such as determining which drug to prescribe to a patient based on their characteristics. The decision tree is built by considering attributes one by one and calculating their significance in splitting the data. The tree is then used to predict the class of unknown cases.
