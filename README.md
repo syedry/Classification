@@ -12,3 +12,6 @@ Built by splitting the training set into distinct nodes, where each node contain
 || Support Vector Machine(SVM) ||
 The goal is to find the optimal hyperplane that best separates the data into different classes. In a 2D space, this hyperplane is simply a line, but in higher dimensions, it becomes a plane or a hyperplane. Support Vectors are the data points that are closest to the hyperplane and influence its position and orientation. They are critical in defining the hyperplane and are used to maximize the margin between the classes. The Margin is the distance between the hyperplane and the nearest support vectors from either class. SVM aims to maximize this margin to ensure the best separation between classes.
 It is memory efficient as it uses a subset of training points but can be less effective on larger datasets.
+
+|| Logistic Regression ||
+used to model the probability of a binary outcome based on one or more predictor variables. Unlike linear regression, which predicts continuous values, logistic regression predicts the probability that a given input belongs to a particular class (0 or 1). The core of logistic regression is the logistic function, also known as the sigmoid function. It maps any real-valued number into a value between 0 and 1, making it suitable for probability estimation.
